@@ -18,7 +18,7 @@ indent_size = 4
 
 # EOL
 [*.{c,h}{,pp,xx},cc,hh]
-end_of_line=crlf
+end_of_line = crlf
 
 # Trailing White Space
 [*.{js,sh,json,yml,md,{c,h}{,pp,xx},cc,hh}]
