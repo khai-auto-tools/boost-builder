@@ -20,4 +20,4 @@ addons:
       - gcc
       - g++
       - p7zip
-      - curl
+      - wget
