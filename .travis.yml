@@ -14,11 +14,6 @@ before_script:
 
 addons:
   apt:
-    sources:
-      - deadsnakes
-      - sourceline: 'ppa:ubuntu-toolchain-r/test'
-      - sourceline: 'deb https://packagecloud.io/chef/stable/ubuntu/precise main'
-        key_url: 'https://packagecloud.io/gpg.key'
     packages:
       - make
       - cmake
