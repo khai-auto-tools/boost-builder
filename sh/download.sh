@@ -1,4 +1,4 @@
-source ./sh/lib/utilities.sh
+source ./lib/utilities.sh
 source ./sh/include/download-url.sh
 source ./sh/subscripts/create-directories.sh
 
