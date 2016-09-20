@@ -6,7 +6,8 @@
   "scripts": {
     "download": "bash -c './sh/download.sh'",
     "compress": "bash -c './sh/compress.sh'",
-    "build": "bash -c './sh/build.sh'"
+    "build": "bash -c './sh/build.sh'",
+    "test": "bash -c 'exit 0'"
   },
   "repository": {
     "type": "git",
