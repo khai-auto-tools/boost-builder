@@ -3,6 +3,7 @@
 .out
 out
 quick-test
+/external
 /freeglut
 /glut
 /gl
