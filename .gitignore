@@ -12,6 +12,10 @@ quick-test
 *.obj
 *.o
 *.log
+*.tmp
+*.temp
+*.stdout
+*.stderr
 .vscode
 BGI
 main.cpp
