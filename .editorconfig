@@ -9,7 +9,7 @@ insert_final_new_line = true
 charset = utf-8
 
 # tab
-[*.{js,json,md,{c,h}{,pp,xx},cc,hh}]
+[*.{js,json,md,{y,ya,x,ht,xht}ml,{c,h}{,pp,xx},cc,hh}]
 indent_style = space
 indent_size = 2
 [*.sh]
