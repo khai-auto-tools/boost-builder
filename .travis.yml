@@ -22,6 +22,6 @@ addons:
     packages:
       - make
       - cmake
-      - gcc-4.8
-      - g++-4.8
+      - gcc
+      - g++
       - p7zip
