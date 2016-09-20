@@ -4,7 +4,24 @@ sudo: required
 language: node_js
 
 node_js:
-    - '6'
+  - '6'
+
+before_install:
+  - apt-get update -y
 
 before_script:
-    - chmod +x sh/*
+  - chmod +x sh/*
+
+addons:
+  apt:
+    sources:
+      - deadsnakes
+      - sourceline: 'ppa:ubuntu-toolchain-r/test'
+      - sourceline: 'deb https://packagecloud.io/chef/stable/ubuntu/precise main'
+        key_url: 'https://packagecloud.io/gpg.key'
+    packages:
+      - make
+      - cmake
+      - gcc-4.8
+      - g++-4.8
+      - p7zip-full
