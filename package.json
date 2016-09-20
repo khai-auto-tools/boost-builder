@@ -1,0 +1,21 @@
+{
+  "name": "boost-builder",
+  "version": "0.0.0",
+  "description": "Auto download, compress, and build C++ Boost library",
+  "main": "index.js",
+  "scripts": {
+    "download": "bash -c './sh/download.sh'",
+    "compress": "bash -c './sh/compress.sh'",
+    "build": "bash -c './sh/build.sh'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khai-auto-tools/boost-builder.git"
+  },
+  "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khai-auto-tools/boost-builder/issues"
+  },
+  "homepage": "https://github.com/khai-auto-tools/boost-builder#readme"
+}
