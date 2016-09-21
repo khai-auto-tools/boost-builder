@@ -3,7 +3,7 @@ Auto download, compress, and build C++ Boost library
 
 ## How does this works?
 
-Just reply on Continuous Integration
+Just rely on Continuous Integration
 
 ## Download
 
